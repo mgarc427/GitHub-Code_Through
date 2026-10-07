@@ -1,7 +1,7 @@
 ---
 color: light
 ---
-{% strip %}<!DOCTYPE html>
+{% comment %}<!DOCTYPE html>
 <html lang="{{ site.lang }}">
   <head>
     <!-- Meta information-->
@@ -219,4 +219,4 @@ color: light
     <!-- build:js {{ site.baseurl | append: '/' | append: 'static/js/main.min.js' | replace: '//', '/' }} -->
     <script src="{{ site.baseurl | append: '/' | append: 'static/js/main.js' | replace: '//', '/' }}"></script><!-- /build -->
   </body>
-</html>{% endstrip %}
+</html>{% endcomment %}
